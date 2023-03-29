@@ -1,0 +1,28 @@
+.header{
+    height: 80px;
+    background: #1C2B35;
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* z-index: 1; */
+}
+
+.heder-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 0 16px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+}
+.heder-menu a:hover{
+    color:orchid;
+}
